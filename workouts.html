@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover personalized bouldering workouts and training plans for climbers of all experience levels.">
+    <title>CruxCraft | Workouts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+<header class="modern-header">
+    <div class="brand">
+        <h1>CRUX<span>CRAFT</span></h1>
+        <p>CLIMB STRONGER. GO FURTHER.</p>
+    </div>
+
+    <div class="header-actions">
+        <a href="login.html">Log In</a>
+        <a href="profile.html">My Profile</a>
+    </div>
+</header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="workouts.html" aria-current="page">Workouts</a></li>
+            <li><a href="tutorials.html">Strength &amp; Tutorials</a></li>
+            <li><a href="progress.html">Progress Tracking</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="workout-intro">
+            <h2>TRAIN SMARTER. CLIMB STRONGER.</h2>
+
+            <p>
+                Every climber starts somewhere! Whether you're
+                stepping onto the wall for the first time or
+                working toward your next climbing grade,
+                CruxCraft is here to help you improve.
+            </p>
+
+            <p>
+                Explore workouts designed to develop your
+                strength, endurance, technique, and confidence.
+                Take the questionnaire below to find a training routine that matches your
+                experience level and climbing goals.
+            </p>
+        </section>
+
+        
+        <!-- CLIMBING WORKOUT LEVELS -->
+        <section id="workout-levels">
+        <h2>CHOOSE YOUR TRAINING LEVEL</h2>
+        <p class="section-description">
+            Every climber has different strengths and goals.
+            Explore the training level that best matches
+            your climbing experience.
+        </p>
+
+        <div class="workout-cards">
+
+            <article class="workout-card">
+                <h3>BEGINNER</h3>
+                <p class="level-label">Building the Foundation</p>
+                <p>
+                    New to bouldering? Focus on developing
+                    proper climbing technique, balance,
+                    footwork, and confidence on the wall.
+                </p>
+                <ul>
+                    <li>Basic climbing movement and footwork</li>
+                    <li>Balance and body positioning</li>
+                    <li>General strength and mobility</li>
+                    <li>Building climbing endurance</li>
+                </ul>
+            </article>
+
+            <article class="workout-card">
+                <h3>INTERMEDIATE</h3>
+                <p class="level-label">Developing Your Skills</p>
+                <p>
+                    Ready to take your climbing further?
+                    Improve your technique while developing
+                    strength, coordination, and endurance.
+                </p>
+                <ul>
+                    <li>Improving climbing efficiency</li>
+                    <li>Core strength and stability</li>
+                    <li>Dynamic climbing movements</li>
+                    <li>Progressive climbing challenges</li>
+                </ul>
+            </article>
+
+            <article class="workout-card">
+                <h3>ADVANCED</h3>
+                <p class="level-label">Pushing Your Limits</p>
+                <p>
+                    Experienced climbers can focus on
+                    refining difficult movements and
+                    developing more specialized strength.
+                </p>
+                <ul>
+                    <li>Advanced movement techniques</li>
+                    <li>Power and explosive movement</li>
+                    <li>Climbing-specific strength</li>
+                    <li>Projecting challenging boulders</li>
+                </ul>
+            </article>
+
+        </div>
+    </section>
+
+
+        <!-- PERSONALIZED WORKOUT QUESTIONNAIRE -->
+
+        <section id="workout-builder">
+            <h2>BUILD YOUR CLIMBING WORKOUT</h2>
+
+            <p class="section-description">
+                Every climber is different! Tell us about your
+                experience, training habits, and goals to help
+                find the right workout for you.
+            </p>
+
+            <form action="#" method="get" id="climbing-form">
+
+                <label for="experience">Climbing Experience:</label>
+                <select id="experience" name="experience" required>
+                    <option value="">Select your level</option>
+                    <option value="beginner">Beginner V0-V3</option>
+                    <option value="intermediate">Intermediate V4-V8</option>
+                    <option value="advanced">Advanced V9-V12</option>
+                </select>
+
+                <label for="goal">Primary Climbing Goal:</label>
+                <select id="goal" name="goal" required>
+                    <option value="">Select your goal</option>
+                    <option value="strength">Build Strength</option>
+                    <option value="endurance">Improve Endurance</option>
+                    <option value="technique">Improve Technique</option>
+                    <option value="power">Increase Power</option>
+                </select>
+
+                <label for="frequency">Climbing Days Per Week:</label>
+                <select id="frequency" name="frequency" required>
+                    <option value="">Select frequency</option>
+                    <option value="1">1 Day</option>
+                    <option value="2">2 Days</option>
+                    <option value="3">3 Days</option>
+                    <option value="4">4 or More Days</option>
+                </select>
+
+                <label for="duration">Typical Session Duration:</label>
+                <select id="duration" name="duration" required>
+                    <option value="">Select duration</option>
+                    <option value="30">30 Minutes</option>
+                    <option value="60">1 Hour</option>
+                    <option value="90">1.5 Hours</option>
+                    <option value="120">2 Hours or More</option>
+                </select>
+
+                <label for="improvement">
+                    What Would You Like to Improve?
+                </label>
+                <textarea id="improvement" name="improvement"
+                    rows="4"
+                    placeholder="Tell us about your climbing goals..."></textarea>
+
+                <button type="submit">Build My Workout</button>
+
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CruxCraft. All Rights Reserved.</p>
+
+        <p>
+            <a href="contact.html">Contact</a> |
+            <a href="resources.html">Resources</a> |
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Use</a>
+        </p>
+
+        <p>Follow us on social media!</p>
+    </footer>
+
+</body>
+</html>

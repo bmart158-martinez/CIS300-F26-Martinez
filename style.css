@@ -250,3 +250,431 @@ footer a:hover {
     color: #C87958;
     text-decoration: underline;
 }
+
+ 
+/* NEW HEADER DESIGN - WORKOUTS AND TUTORIALS */
+
+.modern-header {
+    background-color: #D7E2D0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.brand h1 {
+    font-size: 2.2em;
+    color: #26332B;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.brand h1 span {
+    color: #C87958;
+}
+
+.brand p {
+    font-size: 0.75em;
+    color: #526B50;
+    margin: 2px 0 0 0;
+    letter-spacing: 1px;
+}
+
+.header-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.header-actions a {
+    color: #26332B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-actions a:hover {
+    color: #C87958;
+}
+
+
+/* WORKOUTS PAGE INTRODUCTION */
+
+#workout-intro {
+    background-image:
+        linear-gradient(
+            rgba(38, 51, 43, 0.65),
+            rgba(38, 51, 43, 0.65)
+        ),
+        url("images/workout-hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 110px 30px;
+}
+
+
+#workout-intro h2 {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+
+#workout-intro p {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+
+/* WORKOUT TRAINING LEVELS */
+
+#workout-levels {
+    background-color: #D7E2D0;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#workout-levels h2 {
+    color: #26332B;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    color: #526B50;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: 0 auto 35px;
+}
+
+.workout-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.workout-card {
+    background-color: #F8F6F0;
+    border: 1px solid #526B50;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    text-align: left;
+}
+
+.workout-card h3 {
+    color: #26332B;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.level-label {
+    color: #C87958;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.workout-card p {
+    line-height: 1.6;
+}
+
+.workout-card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.workout-card li {
+    margin-bottom: 8px;
+}
+
+.workout-card:hover {
+    border-color: #C87958;
+    box-shadow: 0 4px 12px rgba(38, 51, 43, 0.12);
+}
+
+
+/* PERSONALIZED WORKOUT QUESTIONNAIRE */
+
+#workout-builder {
+    background-color: #F8F6F0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#workout-builder h2 {
+    color: #26332B;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#climbing-form {
+    background-color: #D7E2D0;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#climbing-form label {
+    color: #26332B;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#climbing-form select,
+#climbing-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #526B50;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#climbing-form button {
+    background-color: #C87958;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#climbing-form button:hover {
+    background-color: #526B50;
+}
+
+
+/* STRENGTH & TUTORIALS HERO SECTION */
+
+#tutorials-hero {
+    background-image:
+        linear-gradient(
+            rgba(38, 51, 43, 0.65),
+            rgba(38, 51, 43, 0.65)
+        ),
+        url("images/tutorials-hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 110px 30px;
+}
+
+#tutorials-hero h2 {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+
+#tutorials-hero p {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+
+/* CLIMBING TECHNIQUES SECTION */
+
+#climbing-techniques {
+    background-color: #D7E2D0;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#climbing-techniques h2 {
+    color: #26332B;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.technique-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.technique-card {
+    background-color: #F8F6F0;
+    border: 1px solid #526B50;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    text-align: left;
+}
+
+.technique-card h3 {
+    color: #26332B;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.technique-label {
+    color: #C87958;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.technique-card p {
+    line-height: 1.6;
+}
+
+.technique-card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.technique-card li {
+    margin-bottom: 8px;
+}
+
+.technique-card:hover {
+    border-color: #C87958;
+    box-shadow: 0 4px 12px rgba(38, 51, 43, 0.12);
+}
+
+
+/* STRENGTH TRAINING SECTION */
+
+#strength-training {
+    background-color: #F8F6F0;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#strength-training h2 {
+    color: #26332B;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.strength-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.strength-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D7E2D0;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    text-align: left;
+}
+
+.strength-card h3 {
+    color: #26332B;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.strength-label {
+    color: #C87958;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.strength-card p {
+    line-height: 1.6;
+}
+
+.strength-card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.strength-card li {
+    margin-bottom: 8px;
+}
+
+.strength-card:hover {
+    border-color: #C87958;
+    box-shadow: 0 4px 12px rgba(38, 51, 43, 0.12);
+}
+
+.training-note {
+    color: #526B50;
+    font-size: 0.95em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 35px auto 0;
+}
+
+
+/* INSTRUCTIONAL VIDEO SECTION */
+
+#video-tutorials {
+    background-color: #D7E2D0;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#video-tutorials h2 {
+    color: #26332B;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.video-container {
+    background-color: #F8F6F0;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 850px;
+    margin: 30px auto 0;
+}
+
+.video-container h3 {
+    color: #26332B;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video-container p {
+    color: #526B50;
+    font-size: 1em;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+/* VIDEO CREDIT */
+
+.video-container .video-credit {
+    font-size: 0.85em;
+    color: #526B50;
+    font-style: italic;
+    margin-top: 10px;
+}
